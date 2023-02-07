@@ -1,5 +1,21 @@
+body{
+  background-image: linear-gradient(to bottom right, red, yellow, violet);
+  height: auto;
+  width: auto;
+}
+
 .App {
   text-align: center;
+  
+  box-shadow: 5px 5px 10px rgba(0,0,0, 0.5);
+  width: 70vw;
+  margin: auto;
+  padding: 10px;
+}
+
+.colorblock{
+  border-radius: 5px;
+  border: 1px solid black
 }
 
 .App-logo {
